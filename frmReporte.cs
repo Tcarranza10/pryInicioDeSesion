@@ -1,4 +1,5 @@
-﻿using System;
+﻿using pryInicioSesionLogs;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,5 +17,8 @@ namespace pryInicioDeSesion
         {
             InitializeComponent();
         }
+
+        clsUsuario Usuario = new clsUsuario();
+
     }
 }
